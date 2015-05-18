@@ -16,7 +16,7 @@ class RcmBrightcovePlayerControllerFactory implements FactoryInterface
      */
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
-        return new BaseController (
+        return new BaseController(
             $serviceLocator->get('config'),
             'RcmBrightcovePlayer'
         );
