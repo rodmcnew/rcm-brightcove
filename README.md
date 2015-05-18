@@ -1,4 +1,4 @@
-Rcm Admin
+Rcm Brightcove
 ======
 
-Provides all the basic admin screens for the Reliv Content manager
+Provides a Brightcove player integration for the Reliv Content Manager
