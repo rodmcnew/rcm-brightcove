@@ -62,7 +62,7 @@ return [
                 'modules/rcm/modules.css' => [
                     'modules/rcm-brightcove-player/style.css'
                 ],
-                'modules/rcm-admin/js/rcm-admin.js' => [
+                'modules/rcm-admin/admin.js' => [
                     'modules/rcm-brightcove-player/rcm-brightcove-player-edit.js',
                 ],
             ],
