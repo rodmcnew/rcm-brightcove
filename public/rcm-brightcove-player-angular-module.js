@@ -1,3 +1,6 @@
+/**
+ * rcm-brightcove-player-angular-module
+ */
 rcm.addAngularModule('rcmBrightcovePlayer');
 angular.module('rcmBrightcovePlayer', [])
     .directive(

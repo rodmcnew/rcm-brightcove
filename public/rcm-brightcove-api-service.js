@@ -1,3 +1,7 @@
+/**
+ * rcm-brightcove-api-service
+ * @type {{bgReadToken: null, bgUrlToken: null, downloadUrls: Array, items: Array, requestVideoList: Function, requestPlaylist: Function, findPlaylistsById: Function, getDownloadURL: Function}}
+ */
 var RcmBrightcoveApiService = {
 
     bgReadToken: null,

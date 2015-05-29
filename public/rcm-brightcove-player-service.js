@@ -1,5 +1,5 @@
 /**
- * RcmBrightcovePlayerService
+ * rcm-brightcove-player-service
  * @type {{}}
  */
 var RcmBrightcovePlayerService = {

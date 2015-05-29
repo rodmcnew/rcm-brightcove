@@ -51,13 +51,16 @@ return [
                 'modules/rcm-brightcove-player/' => __DIR__ . '/../public/',
             ],
             'collections' => [
-                'modules/rcm/plugins.js' => [
+                'modules/rcm/plugin.js' => [
                     'modules/rcm-brightcove-player/rcm-brightcove-player-angular-module.js',
                     'modules/rcm-brightcove-player/rcm-brightcove-player-multi.js',
                     'modules/rcm-brightcove-player/rcm-brightcove-player-single.js',
                     'modules/rcm-brightcove-player/rcm-bright-cove-event-manager.js',
                     'modules/rcm-brightcove-player/rcm-brightcove-player-service.js',
                     'modules/rcm-brightcove-player/rcm-brightcove-api-service.js'
+                ],
+                'modules/rcm/plugin.css' => [
+                    'modules/rcm-brightcove-player/style.css'
                 ],
                 'modules/rcm-admin/js/rcm-admin.js' => [
                     'modules/rcm-brightcove-player/rcm-brightcove-player-edit.js',
