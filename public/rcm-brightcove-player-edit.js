@@ -1,8 +1,8 @@
 /**
  * requires AjaxPluginEditHelper which should be included by rcm-admin
- * RcmCallToActionBox
+ * rcm-brightcove-player-edit
  *
- * JS for editing RcmCallToActionBox
+ * JS for editing rcm-brightcove-player-edit
  *
  * PHP version 5.3
  *

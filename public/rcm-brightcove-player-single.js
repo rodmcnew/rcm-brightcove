@@ -1,6 +1,6 @@
 
 /**
- * RcmBrightcovePlayerSingle
+ * rcm-brightcove-player-single
  * @param playerModel
  * @constructor
  */

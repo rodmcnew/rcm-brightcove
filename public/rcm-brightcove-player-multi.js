@@ -1,3 +1,9 @@
+/**
+ * rcm-brightcove-player-multi
+ * @param instanceId
+ * @param instanceConfig
+ * @constructor
+ */
 var RcmBrightcovePlayerMulti = function (instanceId, instanceConfig) {
 
     var self = this;
