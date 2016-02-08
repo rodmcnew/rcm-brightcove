@@ -70,9 +70,11 @@ var RcmBrightcovePlayerMulti = function (instanceId, instanceConfig) {
 
     self.prepareData = function (data, callback) {
 
-        self.playlists = data.items;
-        // set videoId to play fo first video
-        self.videoId = self.playlists[0].videos[0].id;
+        if(data.items) {
+            self.playlists = data.items;
+            // set videoId to play first video
+            self.videoId = self.playlists[0].videos[0].id;
+        }
 
         if (typeof callback === 'function') {
             callback(self);
