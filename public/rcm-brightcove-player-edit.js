@@ -210,7 +210,7 @@ angular.module('rcmBrightcovePlayerEdit', [])
                 '    style="height:20px;"' +
                 '    class="ui-state-default"' +
                 '    ng-repeat="playlist in unselectedPlaylist"' +
-                '    data-first-video="{{playlist.videoIds.0}}"' +
+                '    data-first-video="{{playlist.videoIds[0]}}"' +
                 '    data-id="{{playlist.id}}"' +
                 '    >' +
                 '        {{playlist.name}}' +
@@ -222,7 +222,7 @@ angular.module('rcmBrightcovePlayerEdit', [])
                 '    </span>' +
                 '    <li class="ui-state-highlight" ' +
                 '    ng-repeat="playlist in selectedPlaylist" ' +
-                '    data-first-video="{{playlist.videoIds.0}}" ' +
+                '    data-first-video="{{playlist.videoIds[0]}}" ' +
                 '    data-id="{{playlist.id}}" ' +
                 '    style="min-height: 15px"' +
                 '    >' +
